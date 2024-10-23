@@ -50,7 +50,7 @@ const MyFooter = () => (
     </section>
 
     <div className='text-center p-4 bg-dark text-white' >
-      © 2022 Copyright
+      © 2024 Copyright
     </div>
   </footer>
 );

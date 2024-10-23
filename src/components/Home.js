@@ -36,6 +36,8 @@ class App extends Component {
     // Ganache -> 5777, Rinkeby -> 4, BSC -> 97
     const networkId = await web3.eth.net.getId()
     console.log('networkid:', networkId)
+
+    //Cambiar a partir de aqui
     const networkData = smart_contract.networks[networkId]
     console.log('NetworkData:', networkData)
 
